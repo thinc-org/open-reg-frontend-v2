@@ -30,7 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "yarn prettier . --write"
+    "format": "yarn prettier . --write",
+    "vercel:dev": "yarn vercel ./build -A ./vercel-dev.json --prod --confirm",
+    "vercel:staging": "yarn vercel ./build -A ./vercel-staging.json --prod --confirm"
   },
   "eslintConfig": {
     "extends": "react-app"
