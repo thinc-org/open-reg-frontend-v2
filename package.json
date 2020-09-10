@@ -50,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@thinc-org/open-reg-types": "^1.1.0",
     "husky": "^4.2.5",
     "prettier": "^2.1.1",
     "vercel": "^20.1.0"
