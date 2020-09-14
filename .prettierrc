@@ -2,7 +2,6 @@
   "printWidth": 150,
   "arrowParens": "avoid",
   "jsxBracketSameLine": true,
-  "trailingComma": "none",
   "semi": false,
   "singleQuote": true,
   "jsxSingleQuote": true
